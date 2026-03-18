@@ -1,29 +1,30 @@
 body {
-  background-color: rgb(218, 218, 218);
+  background-color: rgb(12, 12, 12);
 }
 
 /*카드 전체 박스*/
 .card {
-  width: 320px;
+  width: 600px;
   background-color: white;
   margin: 50px auto;
   padding: 20px;
   border-radius: 10px;
-  border-style: dotted;
-  border-color: rgb(58, 58, 58);
+  border-color: rgb(12, 12, 12);
   text-align: center;
 }
 
 /*소개 문단*/
 p {
-  color: darkorange;
+  color: rgb(101, 101, 101);
   font-size: 16px;
+  font-family: "inter";
+  margin-bottom: 52px;
 }
 
 /*목록*/
 ul {
   text-align: left;
-  font-size: 12px;
+  font-size: 18px;
   margin-top: 15px;
 }
 
@@ -38,14 +39,14 @@ ul {
 
 .contact-btn {
   margin-top: 10px;
-  padding: 8px 15px;
+  padding: 8px 16px;
   border: none;
   border-radius: 10px;
-  background-color: darkorange;
+  background-color: rgb(101, 101, 101);
   color: white;
   cursor: pointer;
 }
 
 .contact-btn:hover {
-  background-color: orange;
+  background-color: rgb(12, 12, 12);
 }
